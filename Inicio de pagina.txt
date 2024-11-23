@@ -1,0 +1,2 @@
+Comando para iniciar la pagina: ""python manage.py runserver 3000""
+La pagina: http://localhost:3000
