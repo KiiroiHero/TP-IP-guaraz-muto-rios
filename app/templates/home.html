@@ -37,7 +37,7 @@
         <h2 class="text-center">La búsqueda no arrojó resultados...</h2>
         {% else %} {% for img in images %}
         <div class="col">
-            <div class="card mb-3 ms-5" style="max-width: 540px; border: 3px solid {% if img.status == 'Alive' %}green{% elif img.status == 'Dead' %}red{% else %}gray{% endif %};
+            <div class="card mb-3 ms-5" style="max-width: 540px; border: 3px solid {% if img.status == 'Alive' %}green{% elif img.status == 'Dead' %}red{% else %}orangered{% endif %};
 ">
                 <div class="row g-0">
                     <div class="col-md-4">
